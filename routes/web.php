@@ -18,5 +18,8 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::get('/superadmin' , 'SuperAdminController@index')->name('superadmin');
+Route::get('/admin' , 'AdminController@index')->name('admin');
+Route::get('/player' , 'PlayerController@index')->name('player');
+Route::get('/team' , 'TeamController@index')->name('team');
 Route::get('/home', 'HomeController@index')->name('home');
