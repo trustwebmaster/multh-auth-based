@@ -9,10 +9,12 @@ In this we have
 Each user is protected by each middleware for example 
 -In PlayerController they is 
 
-```laravel
+``` laravel
 public function __construct(){
     $this->middleware('player');
-} ```
+} 
+
+```
 
 This enables security as this can be accessed through the web , But as yes they is another
 way by specifying the middleware at the end of route
