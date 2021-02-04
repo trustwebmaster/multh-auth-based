@@ -1,10 +1,10 @@
 #This a basic role based authentication using middleware and different roles in laravel 
 
 In this we have 
-1.SuperAdmin
-2.Admin
-3.Player
-4.Team 
+ - 1.SuperAdmin
+ - 2.Admin
+ - 3.Player
+ - 4.Team 
 
 #each user is protected by each middleware for example ,
 #In PlayerController they is 
