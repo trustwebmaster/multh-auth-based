@@ -6,14 +6,17 @@ In this we have
  - 3.Player
  - 4.Team 
 
-#each user is protected by each middleware for example ,
-#In PlayerController they is 
+Each user is protected by each middleware for example 
+-In PlayerController they is 
 
+```laravel
 public function __construct(){
     $this->middleware('player');
-}
+} ```
 
-this enables security as this can be accessed through the web , But as yes they is another
+This enables security as this can be accessed through the web , But as yes they is another
 way by specifying the middleware at the end of route
 
+```laravel
 Route::get('')->middleware('admin');
+```
